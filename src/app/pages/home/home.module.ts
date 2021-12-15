@@ -8,6 +8,7 @@ import { ProductsComponent } from './components/products/products.component';
 import { ReviewComponent } from './components/review/review.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { BlogComponent } from './components/blog/blog.component';
+import { HeaderComponent } from './components/header/header.component';
 
 
 
@@ -19,7 +20,8 @@ import { BlogComponent } from './components/blog/blog.component';
     ProductsComponent,
     ReviewComponent,
     ContactComponent,
-    BlogComponent
+    BlogComponent,
+    HeaderComponent
   ],
   imports: [
     CommonModule,

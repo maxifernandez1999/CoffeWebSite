@@ -1,4 +1,6 @@
-
+.header{
+  background-color: grey;
+}
 
 
 
@@ -24,6 +26,7 @@
   width: 35rem;
   background: #fff;
   padding: 0 1.5rem;
+  background-color:rgba(0, 0, 0, 0.5);
 }
 
 .cart-items-container.active {
@@ -34,8 +37,11 @@
   position: relative;
   margin: 2rem 0;
   display: flex;
+  padding: 1rem;
   align-items: center;
   gap: 1.5rem;
+  background-color:white;
+  border-radius: 2%;
 }
 
 .cart-items-container .cart-item .fa-times {

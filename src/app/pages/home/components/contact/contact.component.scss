@@ -1,15 +1,4 @@
-.heading {
-  text-align: center;
-  color: #fff;
-  text-transform: uppercase;
-  padding-bottom: 3.5rem;
-  font-size: 4rem;
-}
 
-.heading span {
-  color: var(--main-color);
-  text-transform: uppercase;
-}
 .contact .row {
   display: flex;
   background: var(--black);
@@ -57,17 +46,4 @@
   color: #fff;
   text-transform: none;
   background: none;
-}
-.btn{
-  margin-top: 1rem;
-  display: inline-block;
-  padding:.9rem 3rem;
-  font-size: 1.7rem;
-  color:#fff;
-  background: var(--main-color);
-  cursor: pointer;
-}
-
-.btn:hover{
-  letter-spacing: .2rem;
 }

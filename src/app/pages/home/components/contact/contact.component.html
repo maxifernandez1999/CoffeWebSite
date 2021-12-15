@@ -1,6 +1,6 @@
 <section class="contact" id="contact">
 
-      <h1 class="heading"> <span>contact</span> us </h1>
+      <app-heading [span]="'contact'" [html]="'us'"></app-heading>
 
       <div class="row">
 
@@ -22,7 +22,7 @@
                         <span class="fas fa-phone"></span>
                         <input type="number" placeholder="number">
                   </div>
-                  <input type="submit" value="contact now" class="btn">
+                  <app-button [html]="'contact now'"></app-button>
             </form>
 
       </div>
